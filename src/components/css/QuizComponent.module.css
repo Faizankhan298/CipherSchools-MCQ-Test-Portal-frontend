@@ -1,0 +1,112 @@
+/* QuizComponent.module.css */
+
+.quizContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+.quizContent {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.question {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.options {
+  margin: 10px 0;
+}
+
+.option {
+  font-size: 18px;
+  padding: 10px;
+  display: block;
+}
+
+.quizNavigation {
+  margin-top: 20px;
+}
+
+.navButton {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  background-color: rgb(148, 184, 228);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navButton:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.progressBarContainer {
+  width: 100%;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.progressBar {
+  height: 10px;
+  background-color: #4caf50;
+  width: 0%; 
+  border-radius: 5px;
+}
+
+.startButton {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.startButton:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+.buttonSpacing {
+  margin-right: 20px; 
+}
+
+.questionNavigation {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.navButton {
+  background-color: #62b3ed;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.navButton:hover {
+  background-color: #3e80cc;
+}
+
+.activeQuestion {
+  background-color: #45c65d;
+}
+
+.inactiveQuestion {
+  background-color: #d24659;
+}

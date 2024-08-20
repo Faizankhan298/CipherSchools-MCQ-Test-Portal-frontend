@@ -1,0 +1,19 @@
+/* Signup.module.css */
+
+
+.signupButton {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.signupButton:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
